@@ -1,0 +1,164 @@
+*  {
+    box-sizing:border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+div.header-container {
+    display: flex;
+    justify-content:right;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+}
+
+.logo-container {
+position: absolute;
+left: 10px;
+top: 10px;
+}
+    
+
+.header-button li {
+    list-style-type: none;
+    float: left;
+    justify-items: flex-end;
+}
+
+.header-button {
+    background-position:top  ;
+}
+
+.header-button a {
+     color:seashell;
+     padding: 15px;
+     text-decoration:underline ;
+     font-weight: bold;
+}
+
+.main-section {
+    background-image: url(./img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 1200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission-text {
+    background-color: black;
+    text-align: center;
+    width: 1200px;
+}
+
+h2, h4 {
+   align-items: center; 
+   font-weight: bold;
+}
+
+.bottom-section {
+    background-color: black; 
+    width: 1000px;
+    margin: auto;
+}
+
+#bottom-section-text {
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2, h4 {
+    text-align:center;
+    font-weight: bold;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items:center ;
+    align-content:center;
+}
+.image-box {
+    margin: 15px;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 80px;
+    margin-top: 0px;
+}
+
+#img-berryblitz{
+    height: 200px;
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.desc {
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.footer-container {
+    background-image:url(./img-locations-background.jpg);
+    background-repeat: no-repeat;
+    height: 570px;
+    width: 1200px;
+	margin: 0px auto;
+}
+
+.footer-container-text {
+   text-align: bottom;
+   margin-top: 20px;
+   font-weight:  bold; 
+   border: 2px solid transparent;
+   padding-top: 65px;
+   height: 150px;
+}
+
+	.footer-location {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.footer-location-box {
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    margin-right: 40px;
+    margin-top: 0px;
+    text-align: center;
+    opacity: 1;  
+}
+
+.footer-email-contact {
+    text-align: center;
+    height: 200px;
+}
+
+#copyright {
+    margin-left: 20px;
+    margin-bottom: 30px;
+	font-weight: bold;
+}
